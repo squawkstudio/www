@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "../timerz/static/css/main.6f870853.chunk.css",
+    "main.js": "../timerz/static/js/main.a72b0df2.chunk.js",
+    "main.js.map": "../timerz/static/js/main.a72b0df2.chunk.js.map",
+    "runtime-main.js": "../timerz/static/js/runtime-main.ddb04ad3.js",
+    "runtime-main.js.map": "../timerz/static/js/runtime-main.ddb04ad3.js.map",
+    "static/js/2.caf5c31a.chunk.js": "../timerz/static/js/2.caf5c31a.chunk.js",
+    "static/js/2.caf5c31a.chunk.js.map": "../timerz/static/js/2.caf5c31a.chunk.js.map",
+    "index.html": "../timerz/index.html",
+    "precache-manifest.2c48cafbb0978482fb5456c69a84aea7.js": "../timerz/precache-manifest.2c48cafbb0978482fb5456c69a84aea7.js",
+    "service-worker.js": "../timerz/service-worker.js",
+    "static/css/main.6f870853.chunk.css.map": "../timerz/static/css/main.6f870853.chunk.css.map",
+    "static/js/2.caf5c31a.chunk.js.LICENSE.txt": "../timerz/static/js/2.caf5c31a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ddb04ad3.js",
+    "static/js/2.caf5c31a.chunk.js",
+    "static/css/main.6f870853.chunk.css",
+    "static/js/main.a72b0df2.chunk.js"
+  ]
+}
