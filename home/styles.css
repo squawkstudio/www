@@ -1,3 +1,8 @@
+body {
+    font: 15px Tahoma, sans-serif;
+    text-align: center;
+}
+
 a:link {
     text-decoration: none;
 }
