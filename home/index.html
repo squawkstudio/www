@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Squawk Studio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="video.js" type="text/javascript"></script>
 </head>
 <body>
-    <div class="logo">
-        <img class="logoImage" src="images/squawky.png" alt="squawky"/></a>
-    </div>
+    <div id="video_pop" onclick="onPopClick()"></div>
+    <a onclick="onVideoClick('images/squawk-diamond.mp4');">
+        <div class="logo">
+            <img class="logoImage" src="images/squawky.png" alt="squawky"/></a>
+        </div>
+    </a>
     <div class="apps">
         <a href="../timerz/">
             <img class="appImage" src="images/logo-timerZ.png" alt="Timer Z App"/>
