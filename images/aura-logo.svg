@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="320" viewBox="0 0 512 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2f8c3c"/>
+      <stop offset="100%" stop-color="#8ec43b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded rectangle background -->
+  <rect x="24" y="24" width="464" height="272" rx="36" fill="url(#bgGrad)"/>
+
+  <!-- Waveform bars -->
+  <!-- left small pill -->
+  <rect x="160" y="148" width="28" height="44" rx="14" fill="#f29c79"/>
+  <!-- tall dark bar -->
+  <rect x="200" y="108" width="36" height="124" rx="18" fill="#2b1a35"/>
+  <!-- medium orange bar -->
+  <rect x="252" y="126" width="36" height="88" rx="18" fill="#f3a85e"/>
+  <!-- tallest yellow bar -->
+  <rect x="304" y="96" width="40" height="152" rx="20" fill="#f1c24b"/>
+  <!-- right small dark pill -->
+  <rect x="360" y="148" width="28" height="44" rx="14" fill="#2b1a35"/>
+</svg>
