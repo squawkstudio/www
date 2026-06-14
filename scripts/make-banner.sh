@@ -34,7 +34,9 @@ magick images/squawky.png -trim +repage -resize x520 "$TMP/squawky_trim.png"
 # CTA pill (408x70) with text composited dead-center — no baseline guesswork.
 magick -size 408x70 xc:none -fill "$ORANGE" -draw "roundrectangle 0,0 407,69 35,35" "$TMP/pill.png"
 magick -background none -fill white -font "$ARIAL_BOLD" -pointsize 31 label:"squawkstudio.com  →" "$TMP/ctatext.png"
-magick "$TMP/pill.png" "$TMP/ctatext.png" -gravity center -composite "$TMP/cta.png"
+# +0+3 optical nudge: geometric centering rides high because the 'q' descender
+# is a thin tail; +3px balances the visible letter body in the pill.
+magick "$TMP/pill.png" "$TMP/ctatext.png" -gravity center -geometry +0+3 -composite "$TMP/cta.png"
 
 # 1200x630 card: light background, orange accent bar, logo left, text + CTA right.
 magick -size 1200x630 xc:white \
