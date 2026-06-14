@@ -22,3 +22,7 @@ The site is hand-written HTML/CSS/JS — edit the source files directly, there i
 - `video.js` — `onVideoClick(link)` / `onPopClick()` drive a fullscreen modal that plays the logo video (`images/squawk-diamond.mp4`) when the logo is clicked.
 - `styles.css` — all styling, including `#video_pop` (the modal overlay) and `.appImage` (the product tiles).
 - Root also holds favicons / PWA manifest assets (`site.webmanifest`, `browserconfig.xml`, `*.png`, `favicon.ico`) referenced from `index.html`.
+
+## Social share image
+
+`images/og-banner.png` (the 1200×630 card referenced by the `og:image`/`twitter:image` tags) is **generated, not hand-edited**. Regenerate it with `scripts/make-banner.sh` (needs ImageMagick 7 and macOS system Arial fonts) after changing the wording, colors, or logo, then commit the resulting PNG. Don't edit the PNG directly — your changes would be lost on the next run.
