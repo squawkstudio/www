@@ -15,21 +15,40 @@
     <meta name="description" content="Squawk Studio LLC is a software development company specializing in innovative applications and solutions.">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.squawkstudio.com/">
+    <meta property="og:title" content="Squawk Studio, LLC">
+    <meta property="og:description" content="Squawk Studio LLC is a software development company specializing in innovative applications and solutions.">
+    <meta property="og:image" content="https://www.squawkstudio.com/images/squawky.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Squawk Studio, LLC">
+    <meta name="twitter:description" content="Squawk Studio LLC is a software development company specializing in innovative applications and solutions.">
+    <meta name="twitter:image" content="https://www.squawkstudio.com/images/squawky.png">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Squawk Studio, LLC",
+        "url": "https://www.squawkstudio.com",
+        "logo": "https://www.squawkstudio.com/images/squawky.png",
+        "description": "Squawk Studio LLC is a software development company specializing in innovative applications and solutions."
+    }
+    </script>
 </head>
 <body>
     <h1 style="text-align:center;">Squawk Studio, LLC</h1>
-    <button id="video_pop" type="button" onclick="onPopClick()" style="background:none;border:none;padding:0;cursor:pointer;">
-    </button>
-    <button type="button" onclick="onVideoClick('images/squawk-diamond.mp4');" style="background:none;border:none;padding:0;cursor:pointer;">
+    <button id="video_pop" type="button" onclick="onPopClick()" aria-label="Close video"></button>
+    <button type="button" class="logoButton" onclick="onVideoClick('images/squawk-diamond.mp4');" aria-label="Play Squawk Studio intro video">
         <div class="logo">
             <img class="logoImage" src="images/squawky.png" alt="squawky"/>
         </div>
     </button>
-    </a>
     <div class="apps">
         <a href="https://familymap.ai">
-            <img class="appImage" src="images/logo-familyTree.png" alt="Family Map AI"/>
-        </a> 
+            <img class="appImage" src="images/logo-familymap.png" alt="Family Map AI"/>
+        </a>
         <a href="https://shiftfabric.com/">
             <img class="appImage" src="images/ShiftFabric-logo.png" alt="Shift Fabric"/>
         </a> 

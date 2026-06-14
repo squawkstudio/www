@@ -1,6 +1,6 @@
 function onVideoClick(theLink) {
   document.getElementById("video_pop").innerHTML = '<video autoplay id="the_Video" src="' + theLink + '"></video>';
-  document.getElementById("video_pop").style.display = "block";
+  document.getElementById("video_pop").style.display = "flex";
 }
 
 function onPopClick() {
